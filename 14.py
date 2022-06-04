@@ -14,3 +14,9 @@ except OSError:
     print(1)
 except FileNotFoundError:
     print(2)
+""" its better :
+except FileNotFoundError:
+    print(2)
+except OSError:
+    print(1)
+"""

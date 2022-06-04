@@ -3,6 +3,7 @@
 answer : 'Exception', superclass of the exception class 'ValueError', has already been caught
 """
 
+
 def f():
     pass
 
@@ -13,3 +14,9 @@ except Exception:
     print(1)
 except ValueError:
     print(2)
+""" its better :
+except ValueError:
+    print(2)
+except Exception:
+    print(1)
+"""
